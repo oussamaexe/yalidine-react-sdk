@@ -2,9 +2,10 @@
 
 A TypeScript SDK for the Yalidine DZ API. Makes it easy to handle payments and shipping in your React or Next.js app.
 
-[![npm version](https://badge.fury.io/js/@yalidine%2Freact-sdk.svg)](https://badge.fury.io/js/@yalidine%2Freact-sdk)
+[![npm version](https://badge.fury.io/js/@oussamaexe%2Fyalidine-react-sdk.svg)](https://www.npmjs.com/package/@oussamaexe/yalidine-react-sdk)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub](https://img.shields.io/badge/GitHub-yalidine--react--sdk-black.svg)](https://github.com/oussamaexe/yalidine-react-sdk)
 
 ## What's Inside
 
@@ -23,9 +24,9 @@ A TypeScript SDK for the Yalidine DZ API. Makes it easy to handle payments and s
 ## Installation
 
 ```bash
-npm install @yalidine/react-sdk
+npm install @oussamaexe/yalidine-react-sdk
 # or
-yarn add @yalidine/react-sdk
+yarn add @oussamaexe/yalidine-react-sdk
 ```
 
 ## Getting Started
@@ -35,7 +36,7 @@ yarn add @yalidine/react-sdk
 Put the provider around your app:
 
 ```tsx
-import { YalidineProvider } from '@yalidine/react-sdk';
+import { YalidineProvider } from '@oussamaexe/yalidine-react-sdk';
 
 function App() {
   return (
@@ -62,7 +63,7 @@ function App() {
 ### Step 2: Use the Hooks
 
 ```tsx
-import { usePayment } from '@yalidine/react-sdk';
+import { usePayment } from '@oussamaexe/yalidine-react-sdk';
 
 export function CheckoutPage() {
   const { createPayment, loading, error } = usePayment({
@@ -101,7 +102,7 @@ export function CheckoutPage() {
 For a quick payment button:
 
 ```tsx
-import { PaymentButton } from '@yalidine/react-sdk';
+import { PaymentButton } from '@oussamaexe/yalidine-react-sdk';
 
 export function ProductCard() {
   return (
@@ -129,7 +130,7 @@ export function ProductCard() {
 Manage shipments with the `useParcels` hook:
 
 ```tsx
-import { useParcels } from '@yalidine/react-sdk';
+import { useParcels } from '@oussamaexe/yalidine-react-sdk';
 
 export function ShippingManager() {
   const { createParcels, retrieveParcels, parcels, loading, error } = useParcels({
@@ -179,7 +180,7 @@ export function ShippingManager() {
 Check shipping fees by wilaya:
 
 ```tsx
-import { useParcels } from '@yalidine/react-sdk';
+import { useParcels } from '@oussamaexe/yalidine-react-sdk';
 
 export function ShippingCalculator() {
   const { getDeliveryFees, deliveryFees } = useParcels();
@@ -205,7 +206,7 @@ export function ShippingCalculator() {
 Skip the hooks and use the client if you want:
 
 ```tsx
-import { YalidineClient } from '@yalidine/react-sdk';
+import { YalidineClient } from '@oussamaexe/yalidine-react-sdk';
 
 // Initialize client
 const client = new YalidineClient({
@@ -329,7 +330,7 @@ import type {
   DeliveryFeeResponse,
   ParcelHistoryResponse,
   WebhookEvent,
-} from '@yalidine/react-sdk';
+} from '@oussamaexe/yalidine-react-sdk';
 ```
 
 ## Testing
@@ -374,7 +375,6 @@ MIT License - see [LICENSE](./LICENSE)
 
 ## Credits
 
-- Reference: [Yalidine-Dz-Laravel-Api](https://github.com/sebbahali/Yalidine-Dz-Laravel-Api)
 - API: [Yalidine DZ](https://yalidine.app)
 - Built for the Algerian dev community
 
@@ -387,7 +387,7 @@ MIT License - see [LICENSE](./LICENSE)
 
 - [Yalidine Website](https://yalidine.app)
 - [API Docs](https://api.yalidine.app/docs)
-- [npm Package](https://www.npmjs.com/package/@yalidine/react-sdk)
+- [npm Package](https://www.npmjs.com/package/@oussamaexe/yalidine-react-sdk)
 
 ---
 
