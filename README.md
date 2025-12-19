@@ -141,11 +141,11 @@ export function ShippingManager() {
     await createParcels([
       {
         order_id: 'ORDER-789',
-        from_wilaya_name: 'Alger',
-        firstname: 'Ahmed',
-        familyname: 'Benali',
+        from_wilaya_name: 'Djelfa',
+        firstname: 'Djamel',
+        familyname: 'Meftah',
         contact_phone: '0555123456',
-        address: '12 Rue Didouche Mourad',
+        address: 'Djelfa',
         commune_name: 'Alger Centre',
         delivery_price: 500, // Shipping cost in centimes
         product_list: 'T-shirt Blue Size M x1',
