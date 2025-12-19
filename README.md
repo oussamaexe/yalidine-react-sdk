@@ -140,7 +140,7 @@ export function ShippingManager() {
   const createShipment = async () => {
     await createParcels([
       {
-        order_id: 'ORDER-789',
+        order_id: 'ORDER-999',
         from_wilaya_name: 'ALger',
         firstname: 'Djamel',
         familyname: 'Azzouz',
@@ -234,8 +234,8 @@ const paymentDetails = await client.getPayment('payment-id');
 const parcels = await client.createParcels([{
   order_id: 'ORDER-001',
   from_wilaya_name: 'Alger',
-  firstname: 'Ahmed',
-  familyname: 'Benali',
+  firstname: 'Djamel',
+  familyname: 'Azzouz',
   contact_phone: '0555123456',
   address: '12 Rue Example',
   commune_name: 'Alger Centre',
