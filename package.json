@@ -1,5 +1,5 @@
 {
-  "name": "@yalidine/react-sdk",
+  "name": "@oussamaexe/yalidine-react-sdk",
   "version": "1.0.0",
   "description": "React and Next.js SDK for Yalidine DZ API - Easy integration for payment processing",
   "main": "dist/index.js",
