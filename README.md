@@ -391,4 +391,4 @@ MIT License - see [LICENSE](./LICENSE)
 
 ---
 
-Made with ❤️ by Oussama Homiaa
+Made with ❤️ by Oussama Homida
