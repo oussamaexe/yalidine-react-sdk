@@ -371,12 +371,6 @@ Want to contribute? Check out [CONTRIBUTING.md](./CONTRIBUTING.md) for how to ge
 
 MIT License - see [LICENSE](./LICENSE)
 
-## Author
-
-**Oussama Homifa**  
-📧 [me@oussamahomida.com](mailto:me@oussamahomida.com)  
-🐙 [@oussamahomida](https://github.com/oussamahomida)  
-🌐 [oussamahomida.com](https://oussamahomida.com)
 
 ## Credits
 
